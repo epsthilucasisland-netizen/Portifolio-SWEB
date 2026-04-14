@@ -1,28 +1,21 @@
 <?php
 
-$positivos = array();
-$negativos = array();
+function soma($n) {
+    $total = 0;
 
-for ($i = 1; $i <= 8; $i++) {
-    $num = $_GET["n$i"];
-
-    if ($num >= 0) {
-        $positivos[] = $num;
-    } else {
-        $negativos[] = $num;
+    for ($i = 0; $i <= $n; $i++) {
+        $total += $i;
     }
+
+    return $total;
 }
 
-echo "<h2>Números Positivos:</h2>";
-foreach ($positivos as $p) {
-    echo $p . " ";
-}
+$n = $_GET["n"];
 
-echo "<br><br>";
-
-echo "<h2>Números Negativos:</h2>";
-foreach ($negativos as $n) {
-    echo $n . " ";
+if ($n >= 0) {
+    echo "A soma de 0 até $n é= " . soma($n);
+} else {
+    echo "Digite um número inteiro (não negativo).";
 }
 
 ?>
