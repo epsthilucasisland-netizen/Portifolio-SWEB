@@ -1,0 +1,13 @@
+tema: esportes
+
+objetivos do site: facilitar o cliente a encontrar os artigos esportivos com o melhor preço,
+O site conterá um espaço para cada esporte, sendo esses : Basquete, futebol, Volei, ping pong, handball e musculação
+
+faixa etária e público alvo: de 15-40 anos, adolescentes e adultos que já praticam esportes e/ou pessoas que tem interesse em ingressar em um esporte
+
+dados fictícios:
+Nome: Thigga artigos esportivos
+Email: contato.thigga@gmail.com
+Telefone: (11) 94267-6967
+Endereço:Fortaleza - R. Renato Braga, 280 
+Em todas as redes socials (instagram, tiktik, facebook, X) @thigga.sports
