@@ -134,7 +134,7 @@ A identidade visual representa:
 
 Slogan:
 
-> “Mais que uma loja, um estilo de vida.”
+> “não apenas china in box.”
 
 ---
 
@@ -197,10 +197,7 @@ O projeto poderá utilizar:
 projeto-site/
 │
 ├── README.md
-├── planejamento/
 ├── imagens/
 ├── logo/
 ├── referencias/
-├── css/
-├── js/
-└── paginas/
+
