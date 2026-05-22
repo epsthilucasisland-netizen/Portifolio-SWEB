@@ -55,7 +55,7 @@ O site busca resolver dificuldades comuns encontradas em lojas online:
 # 👥 Público-Alvo
 
 ## Faixa etária
-15 a 40 anos
+15 a 67 anos
 
 ## Perfil
 - praticantes de esportes;
