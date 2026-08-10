@@ -272,7 +272,7 @@ if ($texto != "") {
 <footer>
 
     <p>
-        Criptografia no PHP - Projeto educacional
+       etecvav 2026- Lucas Souza/ Thiago maia
     </p>
 
 </footer>
