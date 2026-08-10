@@ -194,37 +194,6 @@ Descriptografia + chave
   ↓
 Texto original
 ```
-
-Na criptografia, os dados podem ser recuperados utilizando a chave apropriada.
-
-## ▶️ Como executar
-
-### 1. Clone o projeto
-
-```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-```
-
-### 2. Entre na pasta
-
-```bash
-cd SEU-REPOSITORIO
-```
-
-### 3. Execute utilizando um servidor PHP
-
-Se o PHP estiver instalado, execute:
-
-```bash
-php -S localhost:8000
-```
-
-### 4. Acesse no navegador
-
-```text
-http://localhost:8000
-```
-
 ## 📌 Requisitos
 
 * PHP 8.0 ou superior
@@ -232,7 +201,6 @@ http://localhost:8000
 * Servidor PHP local
 
 Pode ser utilizado, por exemplo:
-
 * XAMPP
 * WampServer
 * Laragon
@@ -251,16 +219,4 @@ Este projeto foi desenvolvido com o objetivo de auxiliar no aprendizado de:
 * Conceitos básicos de criptografia;
 * Diferenças entre hash, codificação e criptografia.
 
-## 🚀 Próximos passos
-
-Algumas funcionalidades que podem ser adicionadas futuramente:
-
-* [ ] Demonstração de AES-256;
-* [ ] Criptografia e descriptografia com chave;
-* [ ] Demonstração de RSA;
-* [ ] Comparação entre diferentes algoritmos;
-* [ ] Melhorias na interface;
-* [ ] Modo escuro;
-* [ ] Histórico das demonstrações;
-* [ ] Explicações mais detalhadas sobre segurança.
 
