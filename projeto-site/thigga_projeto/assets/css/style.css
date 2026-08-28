@@ -1,0 +1,210 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#111111;
+    color:#ffffff;
+    line-height:1.6;
+}
+
+
+
+.topo{
+    background:#DE2910;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.logo h1{
+    font-family:'Orbitron', sans-serif;
+    color:#FFDE00;
+    font-size:32px;
+}
+
+.logo span{
+    font-size:12px;
+    color:#fff;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.menu a:hover{
+    color:#FFDE00;
+}
+
+
+
+.banner{
+    height:85vh;
+    background:linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+               url("../img/banner.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    padding:0 8%;
+}
+
+.banner-conteudo{
+    max-width:600px;
+}
+
+.slogan{
+    color:#FFDE00;
+    font-weight:600;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+.banner h2{
+    font-family:'Orbitron', sans-serif;
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.banner p{
+    margin-bottom:30px;
+}
+
+
+
+.botao{
+    background:#FFDE00;
+    color:#111;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:bold;
+    display:inline-block;
+    transition:.3s;
+}
+
+.botao:hover{
+    background:#ffd000;
+    transform:translateY(-2px);
+}
+
+
+
+section{
+    padding:70px 8%;
+}
+
+section h2{
+    text-align:center;
+    color:#FFDE00;
+    font-family:'Orbitron';
+    margin-bottom:40px;
+}
+
+
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:25px;
+    border-radius:12px;
+    border:1px solid #333;
+    transition:.3s;
+}
+
+.card:hover{
+    border-color:#FFDE00;
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#FFDE00;
+    margin-bottom:10px;
+}
+
+
+.produtos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.produto{
+    background:#1c1c1c;
+    border-radius:12px;
+    overflow:hidden;
+    text-align:center;
+    transition:.3s;
+}
+
+.produto:hover{
+    transform:scale(1.03);
+}
+
+.produto img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    background:#2b2b2b;
+}
+
+.produto h3{
+    margin:15px 0 8px;
+    color:#FFDE00;
+}
+
+.produto p{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    padding-bottom:20px;
+}
+
+
+.promocao{
+    text-align:center;
+    background:#DE2910;
+}
+
+.promocao h2{
+    color:#fff;
+}
+
+.promocao p{
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+
+
+.rodape{
+    background:#000;
+    text-align:center;
+    padding:35px 20px;
+}
+
+.rodape h3{
+    color:#FFDE00;
+    margin-bottom:10px;
+}
+
+.rodape p{
+    color:#bbb;
+    margin:5px 0;
+}
