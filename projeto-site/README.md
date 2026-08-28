@@ -55,7 +55,7 @@ O site busca resolver dificuldades comuns encontradas em lojas online:
 # 👥 Público-Alvo
 
 ## Faixa etária
-15 a 67 anos
+10 a 80 anos
 
 ## Perfil
 - praticantes de esportes;
@@ -189,15 +189,5 @@ O projeto poderá utilizar:
 - carrinho de compras;
 - sistema de busca.
 
----
 
-# 🗂️ Organização do Repositório
-
-```bash
-projeto-site/
-│
-├── README.md
-├── imagens/
-├── logo/
-├── referencias/
 
