@@ -1,193 +1,214 @@
-# 🏮 THIGGA — Artigos Esportivos
+# 🛍️ THIGGA — Loja Virtual de Artigos Esportivos
 
-![Status](https://img.shields.io/badge/status-em%20planejamento-red)
-![Mobile First](https://img.shields.io/badge/mobile-first-yellow)
-![Projeto Escolar](https://img.shields.io/badge/projeto-escolar-black)
+## 📖 Descrição do projeto
 
----
+O **THIGGA** é um site de e-commerce desenvolvido para a venda de artigos esportivos, reunindo produtos como camisetas, tênis, shorts, bonés e acessórios em uma plataforma moderna e intuitiva.
 
-# 📌 Sobre o Projeto
-
-O projeto **THIGGA** é um site de artigos esportivos desenvolvido com foco em modernidade, desempenho e experiência do usuário.
-
-A proposta do site é oferecer produtos esportivos de qualidade em uma plataforma organizada, intuitiva e responsiva, utilizando o conceito **Mobile First**.
-
-A identidade visual da marca foi inspirada nas cores da bandeira da China e em elementos tradicionais da cultura chinesa, transmitindo força, disciplina e superação.
+O projeto foi desenvolvido utilizando **PHP, MySQL, HTML5, CSS3 e JavaScript**, contando também com um painel administrativo (CRUD) para gerenciamento de produtos, categorias e clientes. Seu objetivo é oferecer uma experiência simples, rápida e responsiva tanto para clientes quanto para administradores da loja.
 
 ---
 
-# 🎯 Objetivo do Site
+## 🎯 Objetivos
 
-O objetivo do projeto é:
-
-- oferecer uma experiência moderna para compra de artigos esportivos;
-- facilitar a navegação em dispositivos móveis;
-- apresentar produtos de forma organizada;
-- aproximar o usuário do universo esportivo através da identidade visual e conteúdo.
-
----
-
-# 🏪 O que o usuário encontrará
-
-O usuário poderá acessar:
-
-- catálogo de produtos esportivos;
-- categorias de produtos;
-- promoções;
-- novidades;
-- área de contato;
-- informações sobre a empresa;
-- conteúdo relacionado ao esporte.
+* Desenvolver uma loja virtual funcional de artigos esportivos.
+* Aplicar conceitos de desenvolvimento web utilizando PHP e banco de dados MySQL.
+* Criar um sistema CRUD para gerenciamento de informações.
+* Oferecer uma navegação intuitiva e responsiva para diferentes dispositivos.
+* Demonstrar a integração entre front-end e back-end em um único projeto.
 
 ---
 
-# ❗ Problema que o site resolve
+## 👥 Público-alvo / Faixa etária
 
-O site busca resolver dificuldades comuns encontradas em lojas online:
+O site foi pensado para pessoas entre **14 e 40 anos**, especialmente:
 
-- navegação confusa;
-- excesso de informações;
-- baixa adaptação para celular;
-- dificuldade em encontrar produtos rapidamente.
-
----
-
-# 👥 Público-Alvo
-
-## Faixa etária
-10 a 80 anos
-
-## Perfil
-- praticantes de esportes;
-- estudantes;
-- atletas amadores;
-- pessoas interessadas em moda esportiva;
-- público jovem conectado à cultura urbana.
-
-## Interesses
-- esportes;
-- saúde;
-- performance;
-- roupas esportivas;
-- tecnologia;
-- estilo streetwear.
+* Praticantes de esportes;
+* Jovens interessados em moda urbana;
+* Clientes que buscam roupas e acessórios esportivos;
+* Consumidores que preferem compras rápidas pela internet.
 
 ---
 
-# 📱 Mobile First
+## 🛒 O que o usuário encontrará
 
-O projeto será desenvolvido utilizando o conceito **Mobile First**, priorizando inicialmente dispositivos móveis.
+Na área pública do site, o usuário poderá encontrar:
 
-## Motivos da escolha
-- a maioria dos usuários acessa pelo celular;
-- carregamento mais rápido;
-- melhor experiência de navegação;
-- layout mais organizado.
+* Página inicial com produtos em destaque;
+* Catálogo completo de produtos;
+* Categorias organizadas por tipo de produto;
+* Página "Sobre" apresentando a marca;
+* Página de contato;
+* Área de login para acesso administrativo.
 
-## Cuidados adotados
-- menu responsivo;
-- imagens leves;
-- textos objetivos;
-- botões maiores para toque;
-- navegação simples;
-- organização vertical do conteúdo.
+Já o administrador possui acesso ao painel onde pode:
 
----
-
-# 🎨 Identidade Visual
-
-## Cores principais
-
-| Cor | Código |
-|------|------|
-| Vermelho | #DE2910 |
-| Dourado | #FFDE00 |
-| Preto | #111111 |
-
-## Fontes
-- Orbitron Bold → títulos
-- Poppins → textos e parágrafos
-
-## Elementos visuais
-- dragão chinês;
-- lanternas;
-- pagodas;
-- padrões orientais;
-- nuvens chinesas;
-- bambu.
-
-## Conceito da Marca
-A identidade visual representa:
-
-- força;
-- disciplina;
-- desempenho;
-- tradição;
-- modernidade;
-- superação.
+* Cadastrar produtos;
+* Editar informações;
+* Excluir registros;
+* Gerenciar categorias;
+* Visualizar clientes cadastrados.
 
 ---
 
-# 🐉 Nome da Empresa
+## 💡 Problema que o site resolve
 
-## THIGGA Artigos Esportivos
+Muitas lojas pequenas possuem dificuldade em organizar seus produtos e oferecer um catálogo digital eficiente.
 
-Slogan:
+O **THIGGA** resolve esse problema ao disponibilizar:
 
-> “não apenas china in box.”
-
----
-
-# 🧱 Estrutura Inicial do Site
-
-## 🏠 Home
-- banner principal;
-- promoções;
-- destaques;
-- categorias.
-
-## 🛍️ Produtos
-- listagem de produtos;
-- filtros;
-- preços;
-- avaliações.
-
-## 📂 Categorias
-- roupas;
-- calçados;
-- acessórios;
-- equipamentos.
-
-## 🏮 Sobre
-- história da marca;
-- missão;
-- visão;
-- valores.
-
-## 📰 Blog
-- dicas esportivas;
-- novidades;
-- tendências.
-
-## 📞 Contato
-- formulário;
-- redes sociais;
-- localização.
+* Organização de produtos por categorias;
+* Administração completa através de um painel;
+* Facilidade de atualização do catálogo;
+* Experiência de compra simples e objetiva.
 
 ---
 
-# 🧩 Recursos do Site
+## 🛡️ Cuidados adotados durante o desenvolvimento
 
-O projeto poderá utilizar:
+Durante a construção do projeto foram adotados diversos cuidados técnicos:
 
-- menu responsivo;
-- formulário de contato;
-- galeria de imagens;
-- animações suaves;
-- vídeos promocionais;
-- integração com mapas;
-- carrinho de compras;
-- sistema de busca.
+* Separação entre front-end e back-end;
+* Organização do código em pastas específicas;
+* Reutilização da conexão com o banco utilizando `require_once`;
+* Utilização de **PDO** para conexão segura com MySQL;
+* Consultas preparadas (`prepare`) para evitar SQL Injection;
+* Estrutura responsiva para melhor adaptação em dispositivos móveis;
+* Interface limpa, priorizando usabilidade e legibilidade.
+
+---
+
+## 🎨 Identidade visual
+
+A identidade visual da THIGGA foi inspirada em grandes marcas esportivas, transmitindo modernidade, desempenho e estilo urbano.
+
+### Paleta de cores
+
+| Cor      | Código    |
+| -------- | --------- |
+| Preto    | `#111111` |
+| Vermelho | `#C1121F` |
+| Branco   | `#FFFFFF` |
+| Cinza    | `#2A2A2A` |
+
+### Tipografia
+
+**Fonte principal:** Poppins (Google Fonts)
+
+Características da fonte:
+
+* Moderna
+* Alta legibilidade
+* Excelente para interfaces digitais
+* Visual esportivo e minimalista
+
+### Elementos visuais
+
+* Ícones minimalistas;
+* Cards de produtos;
+* Botões arredondados;
+* Banner principal em destaque;
+* Layout com bastante contraste entre preto e vermelho;
+* Navegação superior fixa.
+
+---
+
+## 🏗️ Estrutura inicial do site
+
+A aplicação foi dividida em duas áreas principais:
+
+### Área pública
+
+* Home (`index.php`)
+* Produtos
+* Categorias
+* Sobre
+* Contato
+
+### Área administrativa
+
+* Login
+* Dashboard
+* CRUD de Produtos
+* CRUD de Categorias
+* CRUD de Clientes
+
+---
+
+## ⚙️ Recursos utilizados
+
+### Front-end
+
+* HTML5
+* CSS3
+* JavaScript
+* Font Awesome
+* Google Fonts
+
+### Back-end
+
+* PHP 8+
+* MySQL
+* PDO
+
+### Funcionalidades
+
+* Sistema de Login
+* Sessões de usuário
+* CRUD completo
+* Listagem dinâmica de produtos
+* Relacionamento entre categorias e produtos
+* Dashboard administrativo
+
+---
+
+## 📁 Organização das pastas
+
+```text
+thigga_projeto/
+│
+├── admin/
+│   ├── index.php
+│   ├── dashboard.php
+│   ├── produtos.php
+│   ├── categorias.php
+│   └── clientes.php
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── img/
+│
+├── config/
+│   ├── conexao.php
+│   └── auth.php
+│
+├── database/
+│   └── thigga.sql
+│
+├── index.php
+├── produtos.php
+├── categorias.php
+├── sobre.php
+├── contato.php
+└── README.md
+```
+
+---
+
+## 🚀 Tecnologias
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **PHP**
+* **MySQL**
+* **PDO**
+
+---
+
+## 👨‍💻 Autor
+
+Projeto acadêmico desenvolvido por Lucas Oliveira Souza e Thiago Maia, para demonstrar a criação de um sistema web completo de loja virtual utilizando PHP, MySQL e tecnologias modernas de desenvolvimento web.
 
 
 
