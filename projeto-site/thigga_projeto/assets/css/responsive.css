@@ -1,0 +1,176 @@
+
+
+@media (max-width: 768px){
+
+
+
+    .topo{
+        flex-direction:column;
+        padding:15px 5%;
+        gap:15px;
+    }
+
+    .logo{
+        text-align:center;
+    }
+
+    .logo h1{
+        font-size:27px;
+    }
+
+    .menu{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .menu a{
+        margin-left:0;
+        font-size:14px;
+        padding:6px 8px;
+    }
+
+
+  
+
+    .banner{
+        height:75vh;
+        padding:0 6%;
+        text-align:center;
+        justify-content:center;
+    }
+
+    .banner-conteudo{
+        max-width:100%;
+    }
+
+    .banner h2{
+        font-size:30px;
+        line-height:1.3;
+    }
+
+    .banner p{
+        font-size:15px;
+    }
+
+    .slogan{
+        font-size:13px;
+    }
+
+
+    section{
+        padding:50px 6%;
+    }
+
+    section h2{
+        font-size:25px;
+        margin-bottom:30px;
+    }
+
+
+
+
+    .cards{
+        grid-template-columns:1fr;
+        gap:15px;
+    }
+
+    .card{
+        padding:20px;
+        text-align:center;
+    }
+
+
+
+
+    .produtos{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .produto img{
+        height:250px;
+    }
+
+
+
+
+    .promocao{
+        padding:50px 6%;
+    }
+
+    .promocao p{
+        font-size:16px;
+    }
+
+    .botao{
+        padding:13px 24px;
+        font-size:14px;
+    }
+
+
+
+
+    .rodape{
+        padding:30px 15px;
+    }
+
+    .rodape h3{
+        font-size:18px;
+    }
+
+    .rodape p{
+        font-size:13px;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .topo{
+        padding:18px 5%;
+    }
+
+    .menu a{
+        margin-left:12px;
+        font-size:14px;
+    }
+
+    .banner{
+        padding:0 7%;
+    }
+
+    .banner h2{
+        font-size:40px;
+    }
+
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .produtos{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+
+
+
+@media (min-width: 1200px){
+
+    .banner-conteudo{
+        max-width:700px;
+    }
+
+    .banner h2{
+        font-size:55px;
+    }
+
+    section{
+        padding-left:10%;
+        padding-right:10%;
+    }
+}

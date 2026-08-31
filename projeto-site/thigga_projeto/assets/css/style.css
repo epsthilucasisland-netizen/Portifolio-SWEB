@@ -1,0 +1,398 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --vermelho:#C8102E;
+    --preto:#0F0F10;
+    --preto2:#171717;
+    --branco:#F5F5F5;
+    --dourado:#D4AF37;
+    --cinza:#B8B8B8;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--preto);
+    color:var(--branco);
+    overflow-x:hidden;
+}
+
+/* Fundo com traços orientais */
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+    radial-gradient(circle at top right,
+    rgba(200,16,46,.12),transparent 35%),
+    radial-gradient(circle at bottom left,
+    rgba(212,175,55,.05),transparent 40%);
+    pointer-events:none;
+    z-index:-2;
+}
+
+
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:999;
+    background:rgba(15,15,16,.94);
+    backdrop-filter:blur(12px);
+    border-bottom:2px solid var(--vermelho);
+}
+
+.navbar{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 30px;
+}
+
+.logo{
+    font-family:'Orbitron';
+    font-size:2rem;
+    color:var(--vermelho);
+    letter-spacing:2px;
+}
+
+.logo span{
+    color:var(--dourado);
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:28px;
+    transition:.3s;
+    font-weight:500;
+    position:relative;
+}
+
+nav a:hover{
+    color:var(--dourado);
+}
+
+nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    width:0;
+    height:2px;
+    background:var(--vermelho);
+    transition:.3s;
+}
+
+nav a:hover::after{
+    width:100%;
+}
+
+
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(15,15,16,.55),
+    rgba(15,15,16,.82)),
+    url('../img/banner/hero.jpg') center/cover;
+    display:flex;
+    align-items:center;
+    padding:0 8%;
+    position:relative;
+}
+
+
+.hero::after{
+    content:"";
+    position:absolute;
+    right:0;
+    top:0;
+    width:45%;
+    height:100%;
+    background:url('../img/decor/dragao.png')
+    center no-repeat;
+    background-size:contain;
+    opacity:.08;
+}
+
+.hero-content{
+    max-width:600px;
+}
+
+.hero h1{
+    font-family:'Orbitron';
+    font-size:4rem;
+    line-height:1.1;
+    color:white;
+}
+
+.hero h1 span{
+    color:var(--vermelho);
+}
+
+.hero p{
+    margin:22px 0;
+    color:#DDD;
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    background:var(--vermelho);
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:40px;
+    transition:.35s;
+    font-weight:600;
+}
+
+.btn:hover{
+    background:var(--dourado);
+    color:#111;
+    transform:translateY(-4px);
+}
+
+
+
+section{
+    padding:90px 8%;
+}
+
+.titulo{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.titulo h2{
+    font-family:'Orbitron';
+    font-size:2.3rem;
+    color:white;
+}
+
+.titulo p{
+    color:var(--cinza);
+    margin-top:12px;
+}
+
+
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:var(--preto2);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    overflow:hidden;
+    transition:.35s;
+    position:relative;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:var(--vermelho);
+    box-shadow:0 15px 35px rgba(200,16,46,.25);
+}
+
+.card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:18px 20px 8px;
+    color:white;
+}
+
+.card p{
+    color:#C9C9C9;
+    padding:0 20px 22px;
+    font-size:.95rem;
+}
+
+
+
+.card::before{
+    content:"福";
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(200,16,46,.9);
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+}
+
+
+
+.produtos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:30px;
+}
+
+.produto{
+    background:#151515;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.35s;
+}
+
+.produto:hover{
+    transform:scale(1.03);
+}
+
+.produto img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    background:white;
+}
+
+.info{
+    padding:20px;
+}
+
+.info h4{
+    color:white;
+    margin-bottom:8px;
+}
+
+.preco{
+    color:var(--dourado);
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+.botao{
+    margin-top:18px;
+    width:100%;
+    border:none;
+    padding:13px;
+    background:var(--vermelho);
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.botao:hover{
+    background:var(--dourado);
+    color:black;
+}
+
+
+
+.sobre{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:50px;
+}
+
+.sobre img{
+    width:100%;
+    border-radius:20px;
+}
+
+.sobre h2{
+    font-family:'Orbitron';
+    margin-bottom:20px;
+}
+
+.sobre p{
+    color:#D5D5D5;
+    line-height:1.8;
+}
+
+
+
+footer{
+    background:#090909;
+    border-top:2px solid var(--vermelho);
+    padding:45px 8%;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:30px;
+}
+
+footer h3{
+    color:var(--dourado);
+    margin-bottom:15px;
+}
+
+footer a{
+    display:block;
+    color:#C7C7C7;
+    text-decoration:none;
+    margin:8px 0;
+    transition:.3s;
+}
+
+footer a:hover{
+    color:var(--vermelho);
+}
+
+.copy{
+    text-align:center;
+    margin-top:35px;
+    color:#777;
+    font-size:.9rem;
+}
+
+
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav a{
+        margin:0 12px;
+    }
+
+    .hero h1{
+        font-size:2.8rem;
+    }
+
+    .sobre{
+        grid-template-columns:1fr;
+    }
+
+    .hero::after{
+        width:100%;
+        opacity:.05;
+    }
+}
