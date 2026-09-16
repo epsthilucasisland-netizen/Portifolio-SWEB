@@ -1,0 +1,273 @@
+/* =========================================================
+THIGGA — RESPONSIVE
+========================================================= */
+
+/* =========================================================
+TABLETS
+========================================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar {
+    min-height: 75px;
+}
+
+.main-menu {
+    gap: 15px;
+}
+
+.main-menu a {
+    font-size: .82rem;
+}
+
+.header-actions {
+    gap: 7px;
+}
+
+.hero {
+    min-height: 75vh;
+}
+
+.hero-content {
+    min-height: calc(75vh - 75px);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero-decoration {
+    font-size: 10rem;
+}
+
+.categories-grid,
+.products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.about-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+  
+}
+
+/* =========================================================
+CELULARES
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .logo-text {
+    font-size: 1.45rem;
+}
+
+.logo-icon {
+    font-size: 1.4rem;
+}
+
+.hero-subtitle {
+    font-size: .68rem;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 2.35rem;
+}
+
+.hero p {
+    font-size: .88rem;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.hero-buttons .btn {
+    width: 100%;
+}
+
+.section-header {
+    margin-bottom: 35px;
+}
+
+.section-header h2 {
+    font-size: 1.65rem;
+}
+
+.section-header p {
+    font-size: .85rem;
+}
+
+.category-card {
+    flex-direction: row;
+}
+
+.category-info h3 {
+    font-size: .92rem;
+}
+
+.category-info p {
+    font-size: .78rem;
+}
+
+.product-image {
+    height: 260px;
+}
+
+.product-info {
+    padding: 18px;
+}
+
+.product-info h3 {
+    font-size: .95rem;
+}
+
+.product-price {
+    font-size: 1.05rem;
+}
+
+.about-content h2 {
+    font-size: 1.75rem;
+}
+
+.about-content p {
+    font-size: .88rem;
+}
+
+.about-decoration {
+    min-height: 220px;
+}
+
+.chinese-symbol {
+    font-size: 8rem;
+}
+
+.cta-symbol {
+    font-size: 3rem;
+}
+
+.cta-content h2 {
+    font-size: 1.7rem;
+}
+
+.cta-content p {
+    font-size: .85rem;
+}
+
+.cta-content .btn {
+    width: 100%;
+}
+
+.footer-grid {
+    text-align: center;
+}
+
+.footer-brand p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-links {
+    justify-content: center;
+}
+
+.footer-column p {
+    justify-content: center;
+}
+
+.footer-bottom p {
+    font-size: .68rem;
+}
+  
+}
+
+/* =========================================================
+CELULARES MUITO PEQUENOS
+========================================================= */
+
+@media (max-width: 420px) {
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.navbar {
+    min-height: 65px;
+}
+
+.logo-text {
+    font-size: 1.25rem;
+}
+
+.logo-icon {
+    font-size: 1.2rem;
+}
+
+.menu-toggle {
+    width: 38px;
+    height: 38px;
+}
+
+.hero {
+    min-height: 75vh;
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: .82rem;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: .76rem;
+}
+
+.category-card {
+    padding: 16px;
+    gap: 13px;
+}
+
+.category-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 1.1rem;
+}
+
+.product-image {
+    height: 230px;
+}
+
+.product-info {
+    padding: 16px;
+}
+
+.about-decoration {
+    min-height: 190px;
+}
+
+.chinese-symbol {
+    font-size: 6rem;
+}
+
+.footer-grid {
+    gap: 25px;
+}
+  
+}
